@@ -1,0 +1,9 @@
+eventWork.address
+b.logs
+b
+let b = await res.wait()
+let res = await eventWork.run()
+await eventWork.deployed()
+const eventWork = await EventWork.deploy()
+const EventWork = await ethers.getContractFactory("EventWork", owner)
+const [owner, otherAcc] = await ethers.getSigners()
